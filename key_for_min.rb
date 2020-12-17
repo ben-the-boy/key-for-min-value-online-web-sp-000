@@ -14,5 +14,6 @@ def key_for_min_value(name_hash)
   end
   if min_value != ""
     min_value
+  end
 end
 
