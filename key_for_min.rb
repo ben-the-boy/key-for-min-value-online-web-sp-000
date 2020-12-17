@@ -15,5 +15,3 @@ def key_for_min_value(name_hash)
   min_value
 end
 
-
-{:blake => 500, :ashley => 2, :adam => 1}
