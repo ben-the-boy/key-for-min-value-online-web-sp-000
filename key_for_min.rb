@@ -5,7 +5,12 @@ def key_for_min_value(name_hash)
   new_array = name_hash.collect do |name, value|
     value
   end
-  new_array
+  array_sorted = new_array.sort
+  name_hash.each do |name, value|
+    if value == array_sorted[0]
+      name
+    end
+  end
 end
 
 
