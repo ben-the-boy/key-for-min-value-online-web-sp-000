@@ -6,11 +6,13 @@ def key_for_min_value(name_hash)
     value
   end
   array_sorted = new_array.sort
+  min_value = ""
   name_hash.each do |name, value|
     if value == array_sorted[0]
-      name
+      min_value = name
     end
   end
+  min_value
 end
 
 
