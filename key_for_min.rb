@@ -8,3 +8,6 @@ def key_for_min_value(name_hash)
   end
   new_array
 end
+
+
+{:blake => 500, :ashley => 2, :adam => 1}
